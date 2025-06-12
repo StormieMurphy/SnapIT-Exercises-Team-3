@@ -2,7 +2,7 @@ function classifyTriangle(sideOne, sideTwo, sideThree){
     if (sideOne == sideTwo && sideTwo == sideThree){
         console.log("This triangle is equilateral."); 
     }
-    else if (sideOne == sideTwo || sideTwo == sideThree || sideThree == sideOne){
+    else if (sideOne == sideTwo || sideTwo == sideThree){
         console.log("This triangle is isosceles.");
     }
     else {
