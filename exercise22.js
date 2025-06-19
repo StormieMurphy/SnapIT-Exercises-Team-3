@@ -1,4 +1,12 @@
-function printPattern(rows);
-for(let i = 1; i<= rows; i++);{
-for(let j = 1; j<= i)
+function createPattern(rows) {
+    for (let i = 1; i <= rows; i++) {
+        let pattern = "";
+        for (let j = 1; j <= i; j++) {
+            pattern += "*";
+        }
+        pattern.repeat();
+        console.log(pattern);
+    }
 }
+
+createPattern(5);
